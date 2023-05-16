@@ -36,11 +36,9 @@
  
     <ul>
         @foreach($destinazioni as $mete)
-        @if($mete != 'Carlo')
+       
         <li><a href="/destinazioni/{{$mete}}">{{$mete}}</a></li>
-        @else
-        Errore
-        @endif
+        
         @endforeach
 
 
